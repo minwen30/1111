@@ -76,7 +76,7 @@ def movie():
         result = "您輸入的電影關鍵字是：" + Cond
 
         db = firestore.client()
-        collection_ref = db.collection("涵郁電影")
+        collection_ref = db.collection("捷妤電影")
         docs = collection_ref.get()
         result = ""
         for doc in docs:
